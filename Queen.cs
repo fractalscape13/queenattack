@@ -36,7 +36,7 @@ public class Queen
     int yDiff = ycoord - y;
     if (x == xcoord || y == ycoord || Math.Abs(xDiff) == Math.Abs(yDiff))
     {
-      Console.WriteLine("Success, the queen has been killed!");
+      Console.WriteLine("Success, the queen can attack that piece!");
     }
     else 
     {
